@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { FriendListItem } from './FriendListItem';
-import friends from './friends.json';
 import css from './Friends.module.css';
 
 // console.log(data);
