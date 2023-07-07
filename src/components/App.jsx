@@ -13,7 +13,7 @@ import friends from '../components/03-friends-list/friends.json';
 import { TransactionHistory } from "./04-transaction-history/TransactionHistory";
 import transactions from '../components/04-transaction-history/transactions.json';
 
-export const App = ({children}) => {
+export const App = () => {
   return (
     <div
       style={{
@@ -38,7 +38,7 @@ export const App = ({children}) => {
         stats={data} />
       <FriendList friends={friends}/> 
       <TransactionHistory items={transactions} />   
-      {children}
+
     </div>
   );
 };
